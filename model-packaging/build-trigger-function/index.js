@@ -67,7 +67,7 @@ exports.modelDoneWatcher = function (event, callback) {
           auth: authClient
         });
 
-        for (var i = 0; i <= arrayLength; i++) {
+        for (var i = 0; i < arrayLength; i++) {
           arch = archs[i];
           console.log('Submitting build for ' + arch);
           job = undefined;
